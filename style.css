@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Alegreya:ital,wght@0,400;0,500;1,500&family=Asap:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400&family=Nova+Square&family=Orbitron:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@200;300;400;500;600;700&family=Gasoek+One&family=Orbitron:wght@400;500;800&display=swap');
+:root{
+    --cor0:#F2F2F2;
+    --cor01:#8AA1BF;
+    --cor02:#1462A6;
+    --cor03:#16558C;
+    --cor04:#0D0D0D;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor0);
+}
+header{
+    background-color: var(--cor01);
+    padding: 10px;
+    min-height: 150px;
+    margin: 0;
+}
+header h1{
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font: normal bolder 3em 'Orbitron';
+    max-width: 1000px;
+    min-width: 300px;
+    color: var(--cor02);
+}
+header p{
+    text-align: center;
+    margin-top:5px;
+    font: normal normal 1.5em 'Afacad';
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+nav{
+    font: normal bold 1.5em 'Changa', Verdana, sans-serif;
+    background-color: #7e91aae0;
+    padding: 1px 0px 0px 0px;
+    margin: auto;
+    height: 45px;
+    text-align: center;
+    box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.378);
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 100px;
+}
+nav a{
+   margin-right: 30px;
+   text-decoration: none;
+   color: var(--cor03);
+   border-radius: 5px;
+   transition: 500ms;
+}
+nav a:hover{
+    background-color: var(--cor02);
+    color: #77b2ff;
+    padding: 5px;
+}
+main h1{
+    font:normal normal 2.5em 'Anton', Verdana, sans-serif;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 40px;
+    color: rgba(64, 153, 64, 0.663);
+    min-width:320px;
+    max-width: 1500px;
+}
+.texth1 p{
+    font: normal normal 1.3em 'Afacad', Verdana, sans-serif;
+    text-align: justify;
+    max-width: 1500px;
+    min-width: 320px;
+    padding: 5px;
+    justify-content: center;
+    width: 20%;
+
+}
+.qualquer> img{
+    border-radius:50%;
+    height: 450px;
+    display: inline;
+    margin: 40px;
+}
